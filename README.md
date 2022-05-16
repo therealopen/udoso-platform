@@ -1,2 +1,2 @@
 # udoso-platform
-#this project dealing with advertisment for based on cive udom in tanzania 
+#this udoso platform project dealing with advertisment for students at cive udom in tanzania 
