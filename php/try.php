@@ -1,0 +1,2 @@
+<form method="post" action="?<?php echo $adm;?>&&edit_user=<?php echo $edt;?>"><input type="image" src="../assets/img/edit.png" title="edit details" class="img-superControl" style="background:cadetblue" type="submit" name="edit" class="action" onclick="return confirm('Are you sure you want to EDIT click ok to EDIT ?')"></form>
+	

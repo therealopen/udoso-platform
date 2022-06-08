@@ -1,0 +1,75 @@
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+
+html, body{
+ height: 100%;
+ background: -o-linear-gradient(to top left, #973ab7, #009688, #4caf50);
+}
+
+.side{
+    height: 100%;
+    position: relative;
+}
+.side #div{
+    display: flex;
+    height: 60px;
+    background: rgba(0,0,0,0.2);
+    box-shadow: 0 2px 5px #000;
+} 
+.side #div label{
+    font-size: 2.5em;
+    height: 100%;
+    width: 60px;
+    line-height: 60px;
+    text-align: center;
+    cursor: pointer;
+    /*#transition: .5s ease;*/
+    background-color: #3498DB;
+    color: white;
+}
+.side #div label:hover{
+    color: #fff;
+    background-color: #2980B9;
+}
+input[type=checkbox]{
+display: none;
+}
+.side nav{
+ position: absolute;
+ top: 60px;   
+ bottom: 0;
+ width: 0px;
+ background: rgba(0,0,0,.1);
+ /*#box-shadow: 2px 5px 5px #000;*/
+ overflow: hidden;
+ transition: .2s ease;
+
+}
+.side nav ul li a{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-family: alial;
+    color: #000;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 10px;
+    height: 50px;
+    /*transition: .5s ease;*/
+    
+}
+.side nav ul li a:hover{
+    /*#background: dodgerblue;*/
+    background: rgba(0, 0, 0, 0.200);
+    color: white;
+    border-right: 5px solid gray;
+}
+input[type=checkbox]:checked ~ nav{
+    width: 100px;
+    background: #ccc;
+
+}
+

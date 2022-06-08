@@ -1,0 +1,120 @@
+*{
+	font-family: sans-serif;
+}
+body{
+	margin: 0;
+	background: #f7f7f7;
+	font-family: sans-serif;
+}
+
+#cmnt{
+	text-decoration:none;
+	text-orientation: sideways-right;
+	text-overflow: initial;
+	text-align: justify;
+	text-align-last: left;
+	font-size: 12.5cm;
+}
+
+#img{
+	border-radius: 200px;
+	text-align: center;
+	width: 100px;
+	height: 100px;
+	
+
+}
+
+.message{
+	color: darkred;
+	padding-left: 15px;
+	padding-right: 0px;
+	padding-top: 0px;
+	font-family: sans-serif;
+	font-size: 12px;
+	text-transform: capitalize;
+}
+
+.head{
+	background: dodgerblue;
+	padding: 10px;
+	margin:0;
+	color: #f8f8f8;
+	border-spacing: unset;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	font-size: 13px;
+	margin: 5px 10px 5px;
+
+}
+.link-logout{
+	float: right;
+	color: white;
+	text-decoration: none;
+	
+}
+
+
+input[type=text],[type=password],[type=email],[type=tel]{
+	padding: 10px;
+	box-sizing: border-box;
+	outline: none;
+	margin: 5px 10px 5px;
+	border: 1px #ccc solid;
+	border-radius: 2px;
+	
+	
+}
+
+input[type=submit]{
+	outline: none;
+	border: 1px #eee solid;
+	border-radius: 4px;
+	box-sizing: border-box;
+	padding: 5px 10px 5px;
+	margin: 5px 15px 15px;
+	background: dodgerblue;
+	color: #f8f8f8;
+}
+.input{
+	border: none;
+}
+th,td{
+	border: none;
+	border-color: none;
+}
+table{
+	background-color:#f8f8f8;
+}
+.table{
+
+	border-collapse: unset;
+	border: 1px #cce solid;
+	border-radius: 8px;
+	border-spacing: unset;
+	border-collapse: collapse;
+}
+#footer{
+	position: fixed;
+	padding: 10px 10px 10px 10px;
+	bottom: 0;
+	width: 100%;
+	background: #eee;
+	height: 40px;
+	text-transform: uppercase;
+	color: #222;
+	font-size: 12px;
+	font-family: sans-serif;
+}
+
+#status{
+    font-size: 5px;
+    text-decoration: none;
+    background: red;
+}
+#gif{
+	width:40px;
+	height: 40px;
+}
+
